@@ -44,11 +44,14 @@ Vagrant::Config.run do |config|
     chef.cookbooks_path = "cookbooks"
     chef.add_recipe "apt"
     chef.add_recipe "python25"
+    chef.add_recipe "python25::pip"
+    chef.add_recipe "python25::virtualenv"
     chef.add_recipe "google_appengine"
 
     # You may also specify custom JSON attributes:
     chef.json = {
-      :lsb => { :codename => "lucid" }
+      'lsb' => { 'codename' => "lucid" },
+      'python' => { 'prefix_dir' => "/usr" }
     }
   end
 end
