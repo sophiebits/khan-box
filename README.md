@@ -11,6 +11,14 @@ The software installed automatically is:
 * Python 2.5 with pip and virtualenv
 * Google App Engine SDK for Python
 
+Not included yet:
+
+* hg (including kilnauth and kiln-review)
+* git
+* nginx and premade vhost configuration
+* deploy script dependencies
+* editors (vim, emacs)
+
 ## Installation
 
 First, install [VirtualBox](http://www.virtualbox.org/) and [Vagrant](http://vagrantup.com/).
