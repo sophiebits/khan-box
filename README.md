@@ -14,7 +14,7 @@ The software installed automatically is:
 Not included yet:
 
 * hg (including kilnauth and kiln-review)
-* git
+* git (including hub)
 * nginx and premade vhost configuration
 * deploy script dependencies
 * editors (vim, emacs)
